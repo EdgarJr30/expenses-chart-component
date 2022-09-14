@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/styles.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+<main class="flex-center">
+  <section class="first-section flex-center">
+    <div class="my-balance">
+      <h2>My balance</h2>
+      <span>$921.48</span>
+    </div>
+    <img src="./src/images/logo.svg" alt="Logo">
+  </section>
+
+  <section class="second-section">
+    <h2>Spending - Last 7 days</h2>
+
+    <canvas id="canvas">
+      
+    </canvas>
+    <!-- <ul class="flex-center">
+      <li>sun</li>
+      <li>mon</li>
+      <li>tue</li>
+      <li>wed</li>
+      <li>thu</li>
+      <li>fri</li>
+      <li>sat</li>
+    </ul> -->
+
+    <hr>
+
+    <div class="total-per-month flex-center">
+      <div class="this-month">
+        <p>Total this month</p>
+        <span>$478.33</span>
+      </div>
+      <div class="last-month">
+        <span>+2.4%</span>
+        <p>from last month</p>
+      </div>
+    </div>
+    </section>
+</main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
